@@ -231,267 +231,355 @@ private void Form1_Load(object sender, EventArgs e)
                     cbCity.Items.Add("Нальчик");
                         break;
                 case 7:
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.Clear();
+                    cbCity.Items.Add("Элиста");
                     break;
                 case 8:
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.Clear();
+                    cbCity.Items.AddRange(["Черкесск", "Карачаевск"]);
                     break;
                 case 9:
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.Clear();
+                    cbCity.Items.AddRange(["Петрозаводск", "Костомукша"]);
                     break;
                 case 10:
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.Clear();
+                    cbCity.Items.AddRange(["Сыктывкар", "Ухта"]);
                     break;
                 case 11:
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.Clear();
+                    cbCity.Items.AddRange(["Йошкар-Ола", "Волжск", "Козьмодемьянск"]);
                     break;
                 case 12:
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.Clear();
+                    cbCity.Items.AddRange(["Саранск", "Зубова Поляна", "Рузаевка"]);
                     break;
                 case 13:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 14:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 15:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 16:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 17:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 18:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 19:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 20:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 21:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 22:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 23:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 24:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 25:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 26:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 27:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 28:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 29:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 30:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 31:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 32:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 33:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 34:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 35:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 36:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 37:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 38:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 39:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 40:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 41:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 42:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 43:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 44:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 45:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 46:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 47:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 48:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 49:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 50:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 51:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 52:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 53:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 54:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 55:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 56:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 57:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 58:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 59:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 60:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 61:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 62:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 63:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 64:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 65:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 66:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 67:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 68:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 69:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 70:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 71:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 72:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 73:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 74:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 75:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 76:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 77:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 78:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 79:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 80:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 81:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 82:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 83:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 84:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 85:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 86:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 87:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 88:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 89:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 90:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 91:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 92:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 93:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
                 case 94:
+                    cbCity.Items.Clear();
                     cbCity.Items.AddRange([]);
                     break;
             }
