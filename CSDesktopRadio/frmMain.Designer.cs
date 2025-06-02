@@ -42,9 +42,9 @@
             this.cbCity = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
             this.stylePanel1 = new iNKORE.UI.WinForms.Styler.Controls.StylePanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cbRadioStation = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnPlayPause = new Andy.UI.ImageButton();
-            this.cbRadioStation = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
             this.pnlCaption.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).BeginInit();
             this.stylePanel1.SuspendLayout();
@@ -283,6 +283,16 @@
             this.panel1.Size = new System.Drawing.Size(783, 408);
             this.panel1.TabIndex = 9;
             // 
+            // cbRadioStation
+            // 
+            this.cbRadioStation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbRadioStation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbRadioStation.FormattingEnabled = true;
+            this.cbRadioStation.Location = new System.Drawing.Point(55, 201);
+            this.cbRadioStation.Name = "cbRadioStation";
+            this.cbRadioStation.Size = new System.Drawing.Size(325, 28);
+            this.cbRadioStation.TabIndex = 11;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -305,16 +315,6 @@
             this.btnPlayPause.TabIndex = 9;
             this.btnPlayPause.Text = "imageButton1";
             this.btnPlayPause.Click += new System.EventHandler(this.imageButton1_Click);
-            // 
-            // cbRadioStation
-            // 
-            this.cbRadioStation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbRadioStation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cbRadioStation.FormattingEnabled = true;
-            this.cbRadioStation.Location = new System.Drawing.Point(55, 201);
-            this.cbRadioStation.Name = "cbRadioStation";
-            this.cbRadioStation.Size = new System.Drawing.Size(325, 28);
-            this.cbRadioStation.TabIndex = 11;
             // 
             // FrmMain
             // 

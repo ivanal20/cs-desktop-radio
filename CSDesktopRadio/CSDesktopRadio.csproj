@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cities.txt" />
+    <Content Include="cities_new.txt" />
     <Content Include="ic_launcher.ico" />
     <None Include="Resources\wmploc_427.bmp" />
     <None Include="Resources\wmploc_424.bmp" />
