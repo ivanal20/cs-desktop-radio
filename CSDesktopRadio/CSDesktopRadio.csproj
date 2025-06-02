@@ -73,6 +73,9 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="NineSlicePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmMain.resx">
@@ -107,6 +110,10 @@
     <Content Include="cities.txt" />
     <Content Include="cities_new.txt" />
     <Content Include="ic_launcher.ico" />
+    <None Include="Resources\IMAGE803_1.bmp" />
+    <None Include="Resources\IMAGE812_1.bmp" />
+    <None Include="Resources\IMAGE900_1.bmp" />
+    <None Include="Resources\IMAGE813_1.bmp" />
     <None Include="Resources\wmploc_427.bmp" />
     <None Include="Resources\wmploc_424.bmp" />
     <None Include="Resources\wmploc_423.bmp" />

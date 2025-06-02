@@ -63,6 +63,46 @@ namespace CSDesktopRadio.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IMAGE803_1 {
+            get {
+                object obj = ResourceManager.GetObject("IMAGE803_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMAGE812_1 {
+            get {
+                object obj = ResourceManager.GetObject("IMAGE812_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMAGE813_1 {
+            get {
+                object obj = ResourceManager.GetObject("IMAGE813_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMAGE900_1 {
+            get {
+                object obj = ResourceManager.GetObject("IMAGE900_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wmploc_373 {
             get {
                 object obj = ResourceManager.GetObject("wmploc_373", resourceCulture);

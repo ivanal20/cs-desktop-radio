@@ -29,27 +29,130 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbRegionIndex = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.pnlCaption = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.windowControlButton3 = new iNKORE.UI.WinForms.Styler.Controls.WindowControlButton();
             this.windowControlButton2 = new iNKORE.UI.WinForms.Styler.Controls.WindowControlButton();
             this.windowControlButton1 = new iNKORE.UI.WinForms.Styler.Controls.WindowControlButton();
-            this.pbCaptIcon = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cbCity = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
             this.stylePanel1 = new iNKORE.UI.WinForms.Styler.Controls.StylePanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cbRadioStation = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cbRegionIndex = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
+            this.cbCity = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pbCaptIcon = new System.Windows.Forms.PictureBox();
             this.btnPlayPause = new Andy.UI.ImageButton();
             this.pnlCaption.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).BeginInit();
             this.stylePanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pnlCaption
+            // 
+            this.pnlCaption.BackColor = System.Drawing.Color.Transparent;
+            this.pnlCaption.Controls.Add(this.label4);
+            this.pnlCaption.Controls.Add(this.windowControlButton3);
+            this.pnlCaption.Controls.Add(this.windowControlButton2);
+            this.pnlCaption.Controls.Add(this.windowControlButton1);
+            this.pnlCaption.Controls.Add(this.pbCaptIcon);
+            this.pnlCaption.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlCaption.Location = new System.Drawing.Point(0, 0);
+            this.pnlCaption.Name = "pnlCaption";
+            this.pnlCaption.Size = new System.Drawing.Size(800, 32);
+            this.pnlCaption.TabIndex = 6;
+            this.pnlCaption.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(35, 8);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 19);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Радио";
+            // 
+            // windowControlButton3
+            // 
+            this.windowControlButton3.Location = new System.Drawing.Point(690, 11);
+            this.windowControlButton3.Name = "windowControlButton3";
+            this.windowControlButton3.Size = new System.Drawing.Size(32, 16);
+            this.windowControlButton3.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Minimize;
+            this.windowControlButton3.TabIndex = 3;
+            this.windowControlButton3.Text = "windowControlButton3";
+            this.windowControlButton3.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // windowControlButton2
+            // 
+            this.windowControlButton2.Enabled = false;
+            this.windowControlButton2.Location = new System.Drawing.Point(724, 11);
+            this.windowControlButton2.Name = "windowControlButton2";
+            this.windowControlButton2.Size = new System.Drawing.Size(32, 16);
+            this.windowControlButton2.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Maximize;
+            this.windowControlButton2.TabIndex = 2;
+            this.windowControlButton2.Text = "windowControlButton2";
+            // 
+            // windowControlButton1
+            // 
+            this.windowControlButton1.Location = new System.Drawing.Point(758, 11);
+            this.windowControlButton1.Name = "windowControlButton1";
+            this.windowControlButton1.Size = new System.Drawing.Size(32, 16);
+            this.windowControlButton1.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Close;
+            this.windowControlButton1.TabIndex = 1;
+            this.windowControlButton1.Text = "windowControlButton1";
+            this.windowControlButton1.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // stylePanel1
+            // 
+            this.stylePanel1.BackColor = System.Drawing.Color.Transparent;
+            this.stylePanel1.Controls.Add(this.pnlCaption);
+            this.stylePanel1.Controls.Add(this.panel1);
+            this.stylePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stylePanel1.Location = new System.Drawing.Point(0, 0);
+            this.stylePanel1.Name = "stylePanel1";
+            this.stylePanel1.Size = new System.Drawing.Size(800, 450);
+            this.stylePanel1.TabIndex = 12;
+            this.stylePanel1.Theme = iNKORE.UI.WinForms.Styler.Controls.StylePanelThemes.MinCaption;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Window;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.cbRadioStation);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.btnPlayPause);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.cbRegionIndex);
+            this.panel1.Controls.Add(this.cbCity);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Location = new System.Drawing.Point(11, 33);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(777, 404);
+            this.panel1.TabIndex = 9;
+            // 
+            // cbRadioStation
+            // 
+            this.cbRadioStation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbRadioStation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbRadioStation.FormattingEnabled = true;
+            this.cbRadioStation.Location = new System.Drawing.Point(55, 201);
+            this.cbRadioStation.Name = "cbRadioStation";
+            this.cbRadioStation.Size = new System.Drawing.Size(325, 28);
+            this.cbRadioStation.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(51, 178);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(107, 20);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Радиостанция";
             // 
             // label1
             // 
@@ -61,6 +164,15 @@
             this.label1.Size = new System.Drawing.Size(80, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Радио";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(53, 68);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Регион";
             // 
             // cbRegionIndex
             // 
@@ -162,87 +274,6 @@
             this.cbRegionIndex.TabIndex = 1;
             this.cbRegionIndex.SelectedIndexChanged += new System.EventHandler(this.cbRegionIndex_SelectedIndexChanged);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 68);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Регион";
-            // 
-            // pnlCaption
-            // 
-            this.pnlCaption.Controls.Add(this.label4);
-            this.pnlCaption.Controls.Add(this.windowControlButton3);
-            this.pnlCaption.Controls.Add(this.windowControlButton2);
-            this.pnlCaption.Controls.Add(this.windowControlButton1);
-            this.pnlCaption.Controls.Add(this.pbCaptIcon);
-            this.pnlCaption.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlCaption.Location = new System.Drawing.Point(0, 0);
-            this.pnlCaption.Name = "pnlCaption";
-            this.pnlCaption.Size = new System.Drawing.Size(800, 32);
-            this.pnlCaption.TabIndex = 6;
-            this.pnlCaption.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(35, 8);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 19);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Радио";
-            // 
-            // windowControlButton3
-            // 
-            this.windowControlButton3.Location = new System.Drawing.Point(690, 11);
-            this.windowControlButton3.Name = "windowControlButton3";
-            this.windowControlButton3.Size = new System.Drawing.Size(32, 16);
-            this.windowControlButton3.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Minimize;
-            this.windowControlButton3.TabIndex = 3;
-            this.windowControlButton3.Text = "windowControlButton3";
-            this.windowControlButton3.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // windowControlButton2
-            // 
-            this.windowControlButton2.Enabled = false;
-            this.windowControlButton2.Location = new System.Drawing.Point(724, 11);
-            this.windowControlButton2.Name = "windowControlButton2";
-            this.windowControlButton2.Size = new System.Drawing.Size(32, 16);
-            this.windowControlButton2.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Maximize;
-            this.windowControlButton2.TabIndex = 2;
-            this.windowControlButton2.Text = "windowControlButton2";
-            // 
-            // windowControlButton1
-            // 
-            this.windowControlButton1.Location = new System.Drawing.Point(758, 11);
-            this.windowControlButton1.Name = "windowControlButton1";
-            this.windowControlButton1.Size = new System.Drawing.Size(32, 16);
-            this.windowControlButton1.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Close;
-            this.windowControlButton1.TabIndex = 1;
-            this.windowControlButton1.Text = "windowControlButton1";
-            this.windowControlButton1.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // pbCaptIcon
-            // 
-            this.pbCaptIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pbCaptIcon.Location = new System.Drawing.Point(11, 8);
-            this.pbCaptIcon.Name = "pbCaptIcon";
-            this.pbCaptIcon.Size = new System.Drawing.Size(16, 16);
-            this.pbCaptIcon.TabIndex = 0;
-            this.pbCaptIcon.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 124);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Город";
-            // 
             // cbCity
             // 
             this.cbCity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -254,53 +285,23 @@
             this.cbCity.Sorted = true;
             this.cbCity.TabIndex = 8;
             // 
-            // stylePanel1
+            // label3
             // 
-            this.stylePanel1.BackColor = System.Drawing.Color.Transparent;
-            this.stylePanel1.Controls.Add(this.panel1);
-            this.stylePanel1.Controls.Add(this.pnlCaption);
-            this.stylePanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.stylePanel1.Location = new System.Drawing.Point(0, 0);
-            this.stylePanel1.Name = "stylePanel1";
-            this.stylePanel1.Size = new System.Drawing.Size(800, 450);
-            this.stylePanel1.TabIndex = 9;
-            this.stylePanel1.Theme = iNKORE.UI.WinForms.Styler.Controls.StylePanelThemes.MinCaption;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(51, 124);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 20);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Город";
             // 
-            // panel1
+            // pbCaptIcon
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Window;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.cbRadioStation);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.btnPlayPause);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.cbRegionIndex);
-            this.panel1.Controls.Add(this.cbCity);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(8, 32);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(783, 408);
-            this.panel1.TabIndex = 9;
-            // 
-            // cbRadioStation
-            // 
-            this.cbRadioStation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbRadioStation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cbRadioStation.FormattingEnabled = true;
-            this.cbRadioStation.Location = new System.Drawing.Point(55, 201);
-            this.cbRadioStation.Name = "cbRadioStation";
-            this.cbRadioStation.Size = new System.Drawing.Size(325, 28);
-            this.cbRadioStation.TabIndex = 11;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(51, 178);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 20);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Радиостанция";
+            this.pbCaptIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pbCaptIcon.Location = new System.Drawing.Point(11, 8);
+            this.pbCaptIcon.Name = "pbCaptIcon";
+            this.pbCaptIcon.Size = new System.Drawing.Size(16, 16);
+            this.pbCaptIcon.TabIndex = 0;
+            this.pbCaptIcon.TabStop = false;
             // 
             // btnPlayPause
             // 
@@ -335,10 +336,10 @@
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.frmMain_Paint);
             this.pnlCaption.ResumeLayout(false);
             this.pnlCaption.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).EndInit();
             this.stylePanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -361,6 +362,7 @@
         private Andy.UI.ImageButton btnPlayPause;
         private System.Windows.Forms.Label label5;
         private iNKORE.UI.WinForms.Styler.Controls.AdvComboBox cbRadioStation;
+        //private NineSlicePanel stylePanel1;
     }
 }
 
