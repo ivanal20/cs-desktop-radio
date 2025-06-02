@@ -37,30 +37,6 @@ namespace CSDesktopRadio.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Window")]
-        public global::System.Drawing.Color bgColor {
-            get {
-                return ((global::System.Drawing.Color)(this["bgColor"]));
-            }
-            set {
-                this["bgColor"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("WindowText")]
-        public global::System.Drawing.Color fgColor {
-            get {
-                return ((global::System.Drawing.Color)(this["fgColor"]));
-            }
-            set {
-                this["fgColor"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public string cityIndex {
             get {
