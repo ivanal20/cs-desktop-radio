@@ -231,180 +231,268 @@ private void Form1_Load(object sender, EventArgs e)
                     cbCity.Items.Add("Нальчик");
                         break;
                 case 7:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 8:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 9:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 10:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 11:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 12:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 13:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 14:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 15:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 16:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 17:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 18:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 19:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 20:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 21:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 22:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 23:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 24:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 25:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 26:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 27:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 28:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 29:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 30:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 31:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 32:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 33:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 34:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 35:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 36:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 37:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 38:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 39:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 40:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 41:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 42:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 43:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 44:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 45:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 46:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 47:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 48:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 49:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 50:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 51:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 52:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 53:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 54:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 55:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 56:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 57:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 58:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 59:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 60:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 61:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 62:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 63:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 64:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 65:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 66:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 67:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 68:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 69:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 70:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 71:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 72:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 73:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 74:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 75:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 76:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 77:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 78:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 79:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 80:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 81:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 82:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 83:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 84:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 85:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 86:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 87:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 88:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 89:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 90:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 91:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 92:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 93:
+                    cbCity.Items.AddRange([]);
                     break;
                 case 94:
+                    cbCity.Items.AddRange([]);
                     break;
             }
         }
