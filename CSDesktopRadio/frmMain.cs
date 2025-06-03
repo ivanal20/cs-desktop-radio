@@ -256,11 +256,11 @@ private void Form1_Load(object sender, EventArgs e)
                     break;
                 case 13:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Якутск", "Алдан", "Вилюйск", "Кюбеме", "Мирный", "Нерюнгри", "Томтор"]);
                     break;
                 case 14:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Владикавказ", "Архонская"]);
                     break;
                 case 15:
                     cbCity.Items.Clear();
