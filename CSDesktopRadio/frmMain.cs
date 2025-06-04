@@ -280,15 +280,15 @@ private void Form1_Load(object sender, EventArgs e)
                     break;
                 case 19:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Чебоксары", "Алатырь", "Батырево", "Канаш", "Шумерля", "Ядрин"]);
                     break;
                 case 20:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Барнаул", "Алейск", "Белокуриха", "Бийск", "Камень-на-Оби", "Рубцовск"]);
                     break;
                 case 21:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Краснодар", "Азовская", "Анапа", "Армавир", "Белореченск", "Геленджик", "Горячий ключ", "Ейск", "Кабардинка", "Кореновск", "Красная Поляна", "Кропоткин", "Курганинск", "Новороссийск", "Приморско-Ахтарск", "Славянск-на-Кубани", "Сочи", "Тбилисская", "Темрюк", "Тихорецк", "Туапсе", "Усть-Лабинск"]);
                     break;
                 case 22:
                     cbCity.Items.Clear();

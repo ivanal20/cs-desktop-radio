@@ -34,21 +34,21 @@
             this.windowControlButton3 = new iNKORE.UI.WinForms.Styler.Controls.WindowControlButton();
             this.windowControlButton2 = new iNKORE.UI.WinForms.Styler.Controls.WindowControlButton();
             this.windowControlButton1 = new iNKORE.UI.WinForms.Styler.Controls.WindowControlButton();
+            this.pbCaptIcon = new System.Windows.Forms.PictureBox();
             this.stylePanel1 = new iNKORE.UI.WinForms.Styler.Controls.StylePanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cbRadioStation = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnPlayPause = new Andy.UI.ImageButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cbRegionIndex = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
             this.cbCity = new iNKORE.UI.WinForms.Styler.Controls.AdvComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.pbCaptIcon = new System.Windows.Forms.PictureBox();
-            this.btnPlayPause = new Andy.UI.ImageButton();
             this.pnlCaption.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).BeginInit();
             this.stylePanel1.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlCaption
@@ -78,7 +78,7 @@
             // 
             // windowControlButton3
             // 
-            this.windowControlButton3.Location = new System.Drawing.Point(690, 11);
+            this.windowControlButton3.Location = new System.Drawing.Point(688, 11);
             this.windowControlButton3.Name = "windowControlButton3";
             this.windowControlButton3.Size = new System.Drawing.Size(32, 16);
             this.windowControlButton3.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Minimize;
@@ -89,7 +89,7 @@
             // windowControlButton2
             // 
             this.windowControlButton2.Enabled = false;
-            this.windowControlButton2.Location = new System.Drawing.Point(724, 11);
+            this.windowControlButton2.Location = new System.Drawing.Point(722, 11);
             this.windowControlButton2.Name = "windowControlButton2";
             this.windowControlButton2.Size = new System.Drawing.Size(32, 16);
             this.windowControlButton2.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Maximize;
@@ -98,13 +98,22 @@
             // 
             // windowControlButton1
             // 
-            this.windowControlButton1.Location = new System.Drawing.Point(758, 11);
+            this.windowControlButton1.Location = new System.Drawing.Point(756, 11);
             this.windowControlButton1.Name = "windowControlButton1";
             this.windowControlButton1.Size = new System.Drawing.Size(32, 16);
             this.windowControlButton1.Style = iNKORE.UI.WinForms.Styler.Controls.WindowControlButton.WindowControlButtonStyle.Close;
             this.windowControlButton1.TabIndex = 1;
             this.windowControlButton1.Text = "windowControlButton1";
             this.windowControlButton1.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // pbCaptIcon
+            // 
+            this.pbCaptIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pbCaptIcon.Location = new System.Drawing.Point(11, 8);
+            this.pbCaptIcon.Name = "pbCaptIcon";
+            this.pbCaptIcon.Size = new System.Drawing.Size(16, 16);
+            this.pbCaptIcon.TabIndex = 0;
+            this.pbCaptIcon.TabStop = false;
             // 
             // stylePanel1
             // 
@@ -153,6 +162,20 @@
             this.label5.Size = new System.Drawing.Size(107, 20);
             this.label5.TabIndex = 10;
             this.label5.Text = "Радиостанция";
+            // 
+            // btnPlayPause
+            // 
+            this.btnPlayPause.BackColor = System.Drawing.Color.Transparent;
+            this.btnPlayPause.DisabledImage = global::CSDesktopRadio.Properties.Resources.wmploc_376;
+            this.btnPlayPause.HoverImage = global::CSDesktopRadio.Properties.Resources.wmploc_374;
+            this.btnPlayPause.Location = new System.Drawing.Point(350, 346);
+            this.btnPlayPause.Name = "btnPlayPause";
+            this.btnPlayPause.NormalImage = global::CSDesktopRadio.Properties.Resources.wmploc_373;
+            this.btnPlayPause.PushedImage = global::CSDesktopRadio.Properties.Resources.wmploc_375;
+            this.btnPlayPause.Size = new System.Drawing.Size(29, 29);
+            this.btnPlayPause.TabIndex = 9;
+            this.btnPlayPause.Text = "imageButton1";
+            this.btnPlayPause.Click += new System.EventHandler(this.imageButton1_Click);
             // 
             // label1
             // 
@@ -294,29 +317,6 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Город";
             // 
-            // pbCaptIcon
-            // 
-            this.pbCaptIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pbCaptIcon.Location = new System.Drawing.Point(11, 8);
-            this.pbCaptIcon.Name = "pbCaptIcon";
-            this.pbCaptIcon.Size = new System.Drawing.Size(16, 16);
-            this.pbCaptIcon.TabIndex = 0;
-            this.pbCaptIcon.TabStop = false;
-            // 
-            // btnPlayPause
-            // 
-            this.btnPlayPause.BackColor = System.Drawing.Color.Transparent;
-            this.btnPlayPause.DisabledImage = global::CSDesktopRadio.Properties.Resources.wmploc_376;
-            this.btnPlayPause.HoverImage = global::CSDesktopRadio.Properties.Resources.wmploc_374;
-            this.btnPlayPause.Location = new System.Drawing.Point(350, 346);
-            this.btnPlayPause.Name = "btnPlayPause";
-            this.btnPlayPause.NormalImage = global::CSDesktopRadio.Properties.Resources.wmploc_373;
-            this.btnPlayPause.PushedImage = global::CSDesktopRadio.Properties.Resources.wmploc_375;
-            this.btnPlayPause.Size = new System.Drawing.Size(29, 29);
-            this.btnPlayPause.TabIndex = 9;
-            this.btnPlayPause.Text = "imageButton1";
-            this.btnPlayPause.Click += new System.EventHandler(this.imageButton1_Click);
-            // 
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -336,10 +336,10 @@
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.frmMain_Paint);
             this.pnlCaption.ResumeLayout(false);
             this.pnlCaption.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).EndInit();
             this.stylePanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCaptIcon)).EndInit();
             this.ResumeLayout(false);
 
         }
