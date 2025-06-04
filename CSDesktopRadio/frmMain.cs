@@ -292,7 +292,7 @@ private void Form1_Load(object sender, EventArgs e)
                     break;
                 case 22:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Красноярск", "Ачинск", "Ермаковское", "Зеленогорск", "Канск", "Минусинск", "Назарово", "Нижний Ингаш", "Норильск", "Шарыпово"]);
                     break;
                 case 23:
                     cbCity.Items.Clear();
