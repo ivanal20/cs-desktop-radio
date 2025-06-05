@@ -296,23 +296,23 @@ private void Form1_Load(object sender, EventArgs e)
                     break;
                 case 23:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Владивосток", "Арсеньев", "Артём", "Дальнегорск", "Дальнереченск", "Зарубино", "Кавалерово", "Камень-Рыболов", "Кировский", "Красный Яр", "Лесозаводск", "Лучегорск", "Находка", "Новожатково", "Партизанск", "Преображение", "Спасск-Дальний", "Уссурийск", "Фокино"]);
                     break;
                 case 24:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Ставрополь", "Александровское", "Благодарный", "Будённовск", "Георгиевск", "Ессентуки", "Зеленокумск", "Изобильный", "Ипатово", "Кисловодск", "Кочубеевское", "Красногвардейское", "Минеральные воды", "Михайловск", "Невинномысск", "Нефтекумск", "Новоалександровск", "Новопавловск", "Пятигорск", "Светлоград"]);
                     break;
                 case 25:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Хабаровск", "Комсомольск-на-Амуре"]);
                     break;
                 case 26:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Благовещенск", "Белогорск", "Свободный"]);
                     break;
                 case 27:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.AddRange(["Архангельск", "Котлас", "Северодвинск"]);
                     break;
                 case 28:
                     cbCity.Items.Clear();
