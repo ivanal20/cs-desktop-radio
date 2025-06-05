@@ -316,7 +316,7 @@ private void Form1_Load(object sender, EventArgs e)
                     break;
                 case 28:
                     cbCity.Items.Clear();
-                    cbCity.Items.AddRange([]);
+                    cbCity.Items.Add("Астрахань");
                     break;
                 case 29:
                     cbCity.Items.Clear();
